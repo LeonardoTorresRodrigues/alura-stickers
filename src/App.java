@@ -8,8 +8,12 @@ public class App {
         //ExtratorDeConteudo extrator = new ExtratorDeConteudoDoIMDB();
         //String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/TopMovies.json";
 
-        ExtratorDeConteudo extrator = new ExtratorDeConteudoDaNasa();
-        String url = "https://api.nasa.gov/planetary/apod?api_key=h2IxkhLQNRPvSDk5MmVg5xcH216CSdNIf9YAFaeA&start_date=2022-06-12&end_date=2022-06-14";
+        //ExtratorDeConteudo extrator = new ExtratorDeConteudoDaNasa();
+        //String nasaKey = System.getenv("NASA_API_KEY");
+        //String url = "https://api.nasa.gov/planetary/apod?api_key=h2IxkhLQNRPvSDk5MmVg5xcH216CSdNIf9YAFaeA&start_date=2022-06-12&end_date=2022-06-14";
+
+        String url = "http://localhost:8080/linguagens";
+        ExtratorDeConteudo extrator = new ExtratorDeConteudoDoIMDB();
         
         var http = new ClienteHttp();
         String json = http.buscaDados(url);
