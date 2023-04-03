@@ -27,9 +27,9 @@ public class App {
             
             Conteudo conteudo = conteudos.get(i);
 
-            InputStream inputStream = new URL(conteudo.getUrlImagem()).openStream();
-            String nomeArquivo = conteudo.getTitulo();
-            double classificacao = conteudo.getClassificacao();
+            InputStream inputStream = new URL(conteudo.urlImagem()).openStream();
+            String nomeArquivo = conteudo.titulo();
+            double classificacao = conteudo.classificacao();
 
             String textoFigurinha;
             if (classificacao >= 8.0) {
