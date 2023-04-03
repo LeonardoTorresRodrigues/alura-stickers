@@ -2,12 +2,12 @@ public class Conteudo {
   
   private final  String titulo;
   private final String urlImagem;
-  //private final String nota;
+  private final Double classificacao;
 
-  public Conteudo(String titulo, String urlImagem) {
+  public Conteudo(String titulo, String urlImagem, Double classificacao) {
     this.titulo = titulo;
     this.urlImagem = urlImagem;
-    //this.nota = nota;
+    this.classificacao = classificacao;
   }
 
   public String getTitulo() {
@@ -16,5 +16,9 @@ public class Conteudo {
   
   public String getUrlImagem() {
     return urlImagem;
+  }
+
+  public Double getClassificacao() {
+    return classificacao;
   }
 }
