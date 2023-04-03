@@ -15,10 +15,9 @@ public class ExtratorDeConteudoDoIMDB implements ExtratorDeConteudo {
       
       String titulo = atributos.get("title");
       String urlImagem = atributos.get("image").replaceAll("(@+)(.*).jpg$", "$1.jpg");
-      //String nota = atributos.get("imDbRating");
+      double classificacao = Double.parseDouble(atributos.get("imDbRating"));
 
-      var conteudo = new Conteudo(titulo, urlImagem);
-      // nota faltando
+      var conteudo = new Conteudo(titulo, urlImagem, classificacao);
 
       conteudos.add(conteudo);
     }
