@@ -5,7 +5,7 @@ import java.util.List;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        API api = API.LINGUAGENS;
+        API api = API.NASA;
 
         String url = api.getUrl();
         
@@ -35,8 +35,6 @@ public class App {
 
             geradora.cria(inputStream, nomeArquivo, textoFigurinha);
 
-            //System.out.println("\u001b[1m" + titulo + "\u001b[m");
-            //System.out.println("\u2B50 " + nota + "/10");
             System.out.println(nomeArquivo);
             System.out.println();
         }
