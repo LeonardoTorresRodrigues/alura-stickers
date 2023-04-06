@@ -1,19 +1,16 @@
-## Getting Started
+# Alura Stickers
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Crie figurinhas a partir de APIs, como por exemplo IMDB, Nasa, entre outras.
 
-## Folder Structure
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Alura Stickers**
+| :label: Tecnologias | Java, MongoDb, Postman, Spring
+| :rocket: URL         | Em breve
+| :fire: Desafio     | imersão Java da Alura
 
-The workspace contains two folders by default, where:
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Detalhes do projeto
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-# alura-stickers
+Projeto feito durante Imersão Java da Alura.
